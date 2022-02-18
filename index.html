@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel=”stylesheet” href=”https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css”>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque&family=Hind+Madurai:wght@300&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <title>smartWatch</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <div class="box">
+        <div class="items" >
+            <div class="txt1" onclick="disp('txt1')" id="txt">Java &emsp;&emsp;></div>
+            <div class="txt2"onclick="disp('txt2')"id='txt'>Html &emsp;&emsp;></div>
+            <div class="txt3"onclick="disp('txt3')"id='txt'>Css  &emsp;&emsp;></div>
+            <button id="back" onclick="reload()">BACK</button>
+            <div class="content">
+                <div class="songTitle">
+                    <div class="songImg">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTVBlCGhfl-h8acqZ_xM-Dj7_QsjkpLI0tXSAdD5SToOK2pPns6KkDe-7VJUihwlFEgZOI&usqp=CAU" alt="" id="curImg">
+                    </div>
+                    
+            
+                    <div id="songDes">
+                        <div class="songName">newyork nagaram</div>
+                        <div class="artist">AR rahman</div>
+                        <div class="length"></div>
+                    </div>
+                </div>
+                        <div class="list">
+                                <div class="songs1" id="songs">
+                                    <div id="name1" class="names" onclick="play(id)">Attention</div>
+                                    <div class="time1"id="times">3:15</div>
+                                </div>
+                                <div class="songs2"id="songs">
+                                    <div id="name2"class="names"onclick="play(id)">Hail to the king</div>
+                                    <div class="time2"id="times">7:10</div>
+                                </div>
+                                <div class="songs3"id="songs">
+                                    <div id="name3"class="names"onclick="play('name3')">Heaven or hell</div>
+                                    <div class="time3"id="times">4:12</div>
+                                </div>
+                                <div class="songs4"id="songs">
+                                    <div id="name4"class="names"onclick="play('name4')">Stairway to heaven</div>
+                                    <div class="time4"id="times">5:45</div>
+                                </div>
+                                <div class="songs5"id="songs">
+                                    <div id="name5"class="names"onclick="play('name5')">Beat it</div>
+                                    <div class="time5"id="times">7:19</div>
+                                </div>
+                        </div>
+            </div>
+        </div>
+        <div class="icons">
+            <img id="msg" src="./mail.png" alt="" onclick="reload()">
+            <img id='music'src="./musical-note.png" alt="" onclick="music()">
+        </div>
+ <script src="app.js"></script>
+</body>
+</html>
